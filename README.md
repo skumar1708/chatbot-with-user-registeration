@@ -1,4 +1,4 @@
-# chatbot-with-user-registeration.git
+# chatbot-with-user-registeration
 
 MEAN Stack User Registration and Login Example Application With Live ChatBot
 
