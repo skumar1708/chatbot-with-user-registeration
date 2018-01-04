@@ -20,7 +20,7 @@ function authenticateUser(req, res) {
                 res.send({ token: token });
             } else {
                 // authentication failed
-                res.status(401).send('Username or password is incorrect');
+                res.status(401).send({er:'Username or password is incorrect11'});
             }
         })
         .catch(function (err) {
