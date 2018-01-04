@@ -1,5 +1,5 @@
-# mean-stack-registration-login-example
+# chatbot-with-user-registeration.git
 
-MEAN Stack User Registration and Login Example & Tutorial
+MEAN Stack User Registration and Login Example Application With Live ChatBot
 
-To see a demo and further details go to http://jasonwatmore.com/post/2015/12/09/mean-stack-user-registration-and-login-example-tutorial
+To Chat with Bot, go to 'Home' Tab and Click on any Subtopics under 'Billing' category. 
