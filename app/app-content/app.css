@@ -1,0 +1,16 @@
+﻿body {
+    padding: 20px 0;
+}
+
+.flash-message {
+    margin-top: 20px;
+}
+
+.chat-window{
+    clear: both;
+    z-index: 100057;
+    position: fixed;
+    right: 121px;
+    bottom: 0;
+    background: #fff;
+}

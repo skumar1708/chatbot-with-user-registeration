@@ -1,0 +1,44 @@
+﻿<h1>Hi {{vm.user.firstName}}!!</h1>
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Billing queries</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+         
+            <ul class="list-group">
+                <li class="list-group-item" ng-click="vm.openChat()">Incorrect billing</li>
+                <li class="list-group-item">Cancellation fees charged</li>
+                <li class="list-group-item">Need invoices</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Delivery queries</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Improper agent behaviour</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">t.</div>
+      </div>
+    </div>
+  </div> 
+  <div class="chat-window" ng-show="vm.isChatOpened" ng-hide="vm.isChatClosed">
+      <button ng-click="vm.closeChat()" style="display:block;">Close Chat</button>
+      <iframe src="/app/chat/bot3.html"></iframe>
+  </div>
