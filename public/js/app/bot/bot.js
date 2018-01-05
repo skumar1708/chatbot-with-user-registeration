@@ -14,12 +14,12 @@ app.chat = (function () {
     }
 );
     socket.on('chat message', function (msg) {
-      $('#messages').append($('<li>').text('You: ' + msg));
+      $('#messages').append($('<li class="you-reply">').text(msg));
     });
 
     socket.on('bot chat message', function (msg) {
       setTimeout(function(){
-        $('#messages').append($('<li>').text('Bot: ' + msg));
+        $('#messages').append($('<li class="bot-reply">').text( msg));
       },1000);
     });
   };

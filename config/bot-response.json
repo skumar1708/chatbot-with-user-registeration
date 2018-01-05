@@ -1,6 +1,9 @@
 {
     "wildcard": "Sorry i don't know how to answer to that... not yet.",
     "greeting": "Hello {:name}, nice to meet you.",
+    "billinquery":"Hi {:name}, Please let us know you Bill no.",
+    "cancelationcharges":"Please visit our website for cancelation charges.",
+    "needinvoices":"You can download softcopy of Invoice after logging into your account, alternatevily we will send you an email with Invoice",
     "naming": {
       "success": "Your name is {:name}.",
       "error": "I don't know your name."

@@ -25,10 +25,34 @@ exports.comunicate = function (msg, callback) {
   }else {
 
     var response = botResponse.wildcard;
+    if (msg.search(/hi/i) != -1 || msg.search(/hello/i) != -1) {
+     
+      response = "Hey! How can I help you?";
+    }
     if (msg.search(/my name is/i) != -1) {
       name = msg.slice(msg.search(/my name is/i)).slice(11).capitalizeWords();
       response = botResponse.greeting.replace('{:name}', name);
     }
+    if (msg.search(/billing error/i) != -1 
+        || msg.search(/incorrect billing/i) !=-1 
+        || msg.search(/billing query/i) != -1
+        || msg.search(/bill/i) != -1) {
+      
+      response = botResponse.billinquery.replace('{:name}', name);
+    }
+    if (msg.search(/cancelation fees/i) != -1 
+      || msg.search(/cancelation charges/i) !=-1 
+      ) {
+      
+      response = botResponse.cancelationcharges;
+    }
+    if (msg.search(/need invoice/i) != -1 
+    || msg.search(/send me invoice/i) !=-1
+    || msg.search(/invoice/i) !=-1 
+    ) {
+    
+    response = botResponse.needinvoices;
+  }
 
     if (msg.search(/what is my name?/i) != -1) {
       if (name == undefined) {

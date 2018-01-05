@@ -50,3 +50,20 @@ form button {
     font-size: 40px;
     color: black;
 }
+.bot-reply{
+    float: right;
+    background: rgb(121, 236, 121);
+    width: 62%;
+    margin: 4px 0;
+    border-top-left-radius: 17px;
+}
+.you-reply{
+    float: left;
+    background: rgb(156, 197, 250);
+    width: 70%;
+    margin: 4px 0;
+    border-top-right-radius: 17px;
+}
+.chat-window{
+    height: 500px;
+}

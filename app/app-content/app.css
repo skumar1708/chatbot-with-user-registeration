@@ -11,6 +11,10 @@
     z-index: 100057;
     position: fixed;
     right: 121px;
-    bottom: 0;
+    bottom: 24px;
     background: #fff;
+    height: 380px;
+}
+.chat-window>iframe{
+    height: 380px;
 }
