@@ -8,8 +8,8 @@ Note: Make sure that you have installed MongoDB on your local and running MongoD
 
 #Steps to run the application
 
-1. git clone https://github.com/skumar1708/chatbot-with-user-registeration
+1. git clone [https://github.com/skumar1708/chatbot-with-user-registeration]
 
 2. go to directory 'chatbot-with-user-registeration' and npm install
 
-3. go to localhost:3000
+3. go to [localhost:3000]
