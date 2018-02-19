@@ -2,6 +2,7 @@
   "name": "chatbot-with-user-registeration.git",
   "version": "1.0.0",
   "description": "MEAN Stack User Registration and Login Example Application With Live ChatBot",
+  "main":"app/app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/skumar1708/chatbot-with-user-registeration.git"
